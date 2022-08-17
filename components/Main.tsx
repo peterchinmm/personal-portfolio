@@ -21,7 +21,8 @@ const Main = () => {
           </p>
           <motion.div
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
+            viewport={{ fallback: true }}
             variants={{
               hidden: {
                 scale: 0.8,
@@ -43,7 +44,8 @@ const Main = () => {
           </motion.div>
           <motion.div
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
+            viewport={{ fallback: true }}
             variants={{
               hidden: {
                 scale: 0.8,

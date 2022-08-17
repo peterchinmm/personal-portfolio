@@ -1,18 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
+
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-xl z-[100] bg-white"
+          : "fixed w-full h-20 z-[100] bg-white"
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/assets/01 pc logo.png"

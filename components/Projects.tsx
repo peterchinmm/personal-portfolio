@@ -5,7 +5,7 @@ import passageImg from "../public/assets/passageApp.jpg";
 
 const Projects = () => {
   return (
-    <div className="w-full bg-gray-50">
+    <div id="projects" className="w-full lg:h-screen p-2 bg-gray-50">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-green-700">
           Projects

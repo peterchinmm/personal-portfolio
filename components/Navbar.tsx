@@ -124,18 +124,32 @@ const Navbar = () => {
                 Connect with me
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaFacebook />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaInstagram />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaWhatsapp />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
+                <a
+                  href="https://www.facebook.com/peter.mengmeng/"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaFacebook />
+                  </div>
+                </a>
+                <a
+                  href="https://www.instagram.com/hisnameispeter/"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaInstagram />
+                  </div>
+                </a>
+                <a href="https://wa.me/60182046863" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaWhatsapp />
+                  </div>
+                </a>
+                <a href="https://github.com/peterchinmm" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </a>
               </div>
             </div>
           </div>

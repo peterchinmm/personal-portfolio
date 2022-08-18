@@ -100,7 +100,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                It's never too late to try something extraordinary.
+                It&apos;s never too late to try something extraordinary.
               </p>
             </div>
           </div>
@@ -140,6 +140,7 @@ const Navbar = () => {
                 <a
                   href="https://www.facebook.com/peter.mengmeng/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaFacebook />
@@ -148,17 +149,26 @@ const Navbar = () => {
                 <a
                   href="https://www.instagram.com/hisnameispeter/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaInstagram />
                   </div>
                 </a>
-                <a href="https://wa.me/60182046863" target="_blank">
+                <a
+                  href="https://wa.me/60182046863"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaWhatsapp />
                   </div>
                 </a>
-                <a href="https://github.com/peterchinmm" target="_blank">
+                <a
+                  href="https://github.com/peterchinmm"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaGithub />
                   </div>

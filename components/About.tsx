@@ -32,7 +32,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
         </motion.div>
         <p className="py-2 text-gray-600">
-          // I am not just a normal everyday developer
+          I am not just your normal everyday developer
         </p>
         <p className="py-2 text-gray-600">
           Many developers out there had to learn first before getting a job.
@@ -42,10 +42,10 @@ const About = () => {
           learned all of this sooner.
         </p>
         <p className="py-2 text-gray-600">
-          I'm currently having my degree on Data Science at Universiti Malaysia
-          Sabah (UMS) while working as a full-stack developer under Neative,
-          building and maintaining projects with React JS, Express, and learning
-          new technologies.
+          I&apos;m currently having my degree on Data Science at Universiti
+          Malaysia Sabah (UMS) while working as a full-stack developer under
+          Neative, building and maintaining projects with React JS, Express, and
+          learning new technologies.
         </p>
         <p className="py-2 text-gray-600 underline cursor-pointer">
           Check out some of my latest projects.

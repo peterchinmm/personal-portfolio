@@ -29,7 +29,7 @@ const Contact = () => {
                 <p>Full-Stack Developer</p>
                 <p className="py-4">
                   I am available for freelance or part-time positions. Contact
-                  me and let's communicate.
+                  me and let&apos;s communicate.
                 </p>
               </div>
               <div>
@@ -38,6 +38,7 @@ const Contact = () => {
                   <a
                     href="https://www.facebook.com/peter.mengmeng/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaFacebook />
@@ -46,17 +47,26 @@ const Contact = () => {
                   <a
                     href="https://www.instagram.com/hisnameispeter/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaInstagram />
                     </div>
                   </a>
-                  <a href="https://wa.me/60182046863" target="_blank">
+                  <a
+                    href="https://wa.me/60182046863"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaWhatsapp />
                     </div>
                   </a>
-                  <a href="https://github.com/peterchinmm" target="_blank">
+                  <a
+                    href="https://github.com/peterchinmm"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>

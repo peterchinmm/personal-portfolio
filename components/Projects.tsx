@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import passageImg from "../public/assets/passageApp.jpg";
+import passageImg from "../public/assets/passageApp.png";
 
 const Projects = () => {
   return (

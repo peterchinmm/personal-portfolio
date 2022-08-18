@@ -5,6 +5,7 @@ import About from "../components/About";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 const Home: NextPage = () => {
   const { scrollYProgress } = useScroll();
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
       <Main />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 };

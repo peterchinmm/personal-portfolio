@@ -1,18 +1,24 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import htmlLogo from "../public/assets/htmlLogo.png";
+import cssLogo from "../public/assets/cssLogo.png";
+import javascriptLogo from "../public/assets/javascriptLogo.png";
+import reactLogo from "../public/assets/reactLogo.png";
+import mongoLogo from "../public/assets/mongoLogo.png";
+import githubLogo from "../public/assets/githubLogo.png";
 
 const Skills = () => {
   const skillList = [
-    { url: "/../public/assets/htmlLogo.png", name: "HTML" },
-    { url: "/../public/assets/cssLogo.png", name: "CSS" },
-    { url: "/../public/assets/javascriptLogo.png", name: "Javascript" },
-    { url: "/../public/assets/reactLogo.png", name: "React" },
-    { url: "/../public/assets/mongoLogo.png", name: "MongoDB" },
-    { url: "/../public/assets/githubLogo.png", name: "Github" },
+    { url: htmlLogo, name: "HTML" },
+    { url: cssLogo, name: "CSS" },
+    { url: javascriptLogo, name: "Javascript" },
+    { url: reactLogo, name: "React" },
+    { url: mongoLogo, name: "MongoDB" },
+    { url: githubLogo, name: "Github" },
   ];
 
-  const displaySkill = (url: string, name: string, delay: number) => {
+  const displaySkill = (url: StaticImageData, name: string, delay: number) => {
     return (
       <motion.div
         initial="hidden"

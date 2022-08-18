@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
+import myLogo from "../public/assets/01 pc logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="cursor-pointer"
-            src="/../public/assets/01 pc logo.png"
+            src={myLogo}
             alt="/"
             width="100"
             height="50"

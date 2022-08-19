@@ -63,7 +63,7 @@ const Main = () => {
           >
             <h1 className="py-2 text-gray-700">A Full-Stack Web Developer</h1>
           </motion.div>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+          <p className="py-4 text-gray-600 max-w-[70%] m-auto bg-white xl:bg-none">
             I&apos;m a self-learning full-stack web developer specializing in
             building amazing digital experiences. I&apos;m currently focused on
             learning back-end technologies while maintaining and building

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -32,7 +33,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
         </motion.div>
         <p className="py-2 text-gray-600">
-          I am not just your normal everyday developer
+          I am not just your normal everyday developer.
         </p>
         <p className="py-2 text-gray-600">
           Many developers out there had to learn first before getting a job.
@@ -47,9 +48,11 @@ const About = () => {
           Neative, building and maintaining projects with React JS, Express, and
           learning new technologies.
         </p>
-        <p className="py-2 text-gray-600 underline cursor-pointer">
-          Check out some of my latest projects.
-        </p>
+        <Link href="/#projects">
+          <p className="py-2 text-gray-600 underline cursor-pointer">
+            Check out some of my latest projects.
+          </p>
+        </Link>
       </div>
     </div>
   );
